@@ -1,0 +1,10 @@
+.chart-container {
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.355);
+  border-radius: 5px;
+
+}
+.lineChart {
+  margin-top: 2rem;
+}

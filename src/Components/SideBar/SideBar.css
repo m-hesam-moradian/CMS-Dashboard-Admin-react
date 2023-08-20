@@ -1,0 +1,33 @@
+.SideBar {
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  /* height: calc(100vh - 50px); */
+  position: sticky;
+
+  background-color: rgba(236, 236, 236, 0.403);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+.SideBar-contaner {
+  padding: 20px;
+}
+.SideBar-section h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.551);
+}
+.SideBar-section li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  list-style: none;
+  color: rgba(0, 0, 0, 0.762);
+}
+
+.SideBar-section li:hover,
+.SideBar-section .active {
+  border-radius: 5px;
+  background-color: rgba(236, 236, 236, 0.777);
+}
+.SideBar-section a:hover {
+  text-decoration: none;
+}

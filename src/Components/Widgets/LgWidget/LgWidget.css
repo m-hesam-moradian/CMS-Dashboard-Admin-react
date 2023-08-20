@@ -1,0 +1,53 @@
+.LgWidget {
+  margin: 1rem 0;
+  padding: 1rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.355);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+.LgWidget h3{
+     font-size: 2rem;
+margin-bottom: 1rem;}
+.LgWidget table{
+    margin: 1rem;
+}
+.LgWidget td{
+margin: 1rem;
+/* background-color: rgb(236, 240, 240); */
+
+
+}
+.LgWidget th{
+    font-weight: 600;
+    font-size: 130%;
+    
+}
+
+
+
+.LgWidget img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  margin: 10px;
+}
+.LgWidget button{
+  border: none;
+  padding: 7px;
+  border-radius: 7px;
+}
+.LgWidget .approved{
+background-color: rgb(180, 255, 172);
+color: green;
+}
+.LgWidget .regected{
+background-color: rgb(255, 138, 138);
+color: rgb(128, 0, 0);
+}
+.LgWidget .pending{
+background-color: rgb(253, 255, 138);
+color: rgb(115, 128, 0);
+}

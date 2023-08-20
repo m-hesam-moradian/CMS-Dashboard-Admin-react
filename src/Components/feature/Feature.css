@@ -1,0 +1,53 @@
+.Feature {
+  background-color: rgba(219, 219, 219, 0.324);
+
+  border-radius: 10px;
+  display: grid;
+width: 100%;
+  height: 25vh;
+}
+.Feature-container {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  align-items: center;
+
+  margin: 3%;
+  padding: 2% 4%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.355);
+  transition: all 0.5s ease;
+}
+.Feature-container:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.448);
+
+
+  border-radius: 10px;
+
+  margin: 2%;
+}
+.Feature-up {
+  font-weight: bold;
+  font-size: large;
+}
+
+.Feature-midle {
+  display: flex;
+  align-items: center;
+}
+.Feature-price {
+  font-size: xx-large;
+  margin-right: 9px;
+}
+.Feature-percent {
+  display: flex;
+}
+.Feature-percent .arrowdown {
+  color: red;
+}
+.Feature-percent .arrowup {
+  color: rgb(2, 209, 2);
+}
+.Feature-describtion {
+  font-size: small;
+  color: gray;
+}

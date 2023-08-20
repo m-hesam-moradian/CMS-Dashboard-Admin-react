@@ -1,0 +1,45 @@
+.SmWidget {
+  margin: 1rem 2rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.355);
+  border-radius: 5px;
+  /* width: 30%; */
+}
+
+.SmWidget-title {
+  font-size: 2rem;
+}
+.SmWidget li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem
+}
+.SmWidget img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+border: 2px solid gray;
+
+}
+.SmWidget .SmWidget-title {
+  display: flex;
+  flex-direction: column;
+}
+.SmWidget .SmWidget-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.SmWidget .SmWidget-job {
+  font-size: 17px;
+  font-weight: 300;
+  color: gray;
+}
+.SmWidget button {
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(226, 226, 226);
+  color: rgb(84, 84, 84);
+}
