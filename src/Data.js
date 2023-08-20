@@ -53,7 +53,7 @@ const transActions = [
     date: '2023 / 12 / 8',
     Amount: 1000000,
     status: "regected",
-    
+
   },
   {
     id: 4,
