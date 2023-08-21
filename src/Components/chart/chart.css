@@ -4,6 +4,7 @@
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.355);
   border-radius: 5px;
 
+  width: 100%;
 }
 .lineChart {
   margin-top: 2rem;

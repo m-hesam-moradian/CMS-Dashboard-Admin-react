@@ -21,7 +21,7 @@ export default function LgWidget() {
         {transActions.map((user) => (
           <tr>
             <td>
-              <img src={user.img} alt="" />
+              <img className="profile" src={user.img} alt="" />
               <span>{user.customer}</span>
             </td>
             <td>{user.date}</td>

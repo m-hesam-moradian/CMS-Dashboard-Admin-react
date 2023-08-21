@@ -14,7 +14,7 @@ export default function chart({ grid, title, data, dataKey }) {
     <div className="chart-container">
       <h3 className="chart-title">{title}</h3>
 
-      <ResponsiveContainer width="100%" aspect={5}>
+      <ResponsiveContainer width="99%" aspect={5}>
         <LineChart className="lineChart" data={data}>
           <XAxis dataKey="month" stroke="#5550bd" />
           {/* <YAxis /> */}

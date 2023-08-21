@@ -27,13 +27,6 @@ margin: 1rem;
 
 
 
-.LgWidget img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 2px solid gray;
-  margin: 10px;
-}
 .LgWidget button{
   border: none;
   padding: 7px;

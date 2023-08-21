@@ -64,4 +64,35 @@ const transActions = [
     status: "approved",
   },
 ];
-export { chartdata, SmWidgetData, transActions };
+const UsertsList = [
+  {
+    ID: 1,
+    Name: "M.Hesam Moradian",
+    img: "images/Screenshot 2023-07-11 105616.png",
+    status: "Active",
+    Gmail: "m.hesam.moradian@gmail.com",
+  },
+  {
+    ID: 2,
+    Name: "Mehdi Vatani",
+    img: "https://marketplace.canva.com/EAFQud1wRig/1/0/1600w/canva-professional-linkedin-profile-picture-QDDX6c-STKE.jpg",
+    status: "Active",
+    Gmail: "Mehdi.Vatani@gmail.com",
+  },
+  {
+    ID: 3,
+    Name: "Mehdi Naseri",
+    img: "https://marketplace.canva.com/EAFP9iKtGOw/1/0/1600w/canva-grey-modern-linkedin-profile-picture-na-7L7OnPaY.jpg",
+    status: "deActive",
+    Gmail: "Mehdi_Naseri1381@gmail.com",
+  },
+  {
+    ID: 4,
+    Name: "noshin khanbabaii",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8pd4f-ZTyp4Fdlqw7f9YzoGj55o4Q9ST4taMlI8QqU0Y-KNxNHoZGR0ru6GG9Z8HN3ZQ&usqp=CAU",
+    status: "Active",
+    Gmail: "noshiwx@gmail.com",
+  },
+
+];
+export { chartdata, SmWidgetData, transActions, UsertsList };

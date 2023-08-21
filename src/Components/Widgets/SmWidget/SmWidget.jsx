@@ -11,7 +11,7 @@ export default function SmWidget() {
         {SmWidgetData.map((user) => {
           return (
             <li>
-              <img src={user.img} />
+              <img className="profile" src={user.img} />
               <div className="SmWidget-title">
                 <span className="SmWidget-name">{user.name}</span>
                 <span className="SmWidget-job">{user.job}</span>
