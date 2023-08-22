@@ -8,6 +8,8 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { UsertsList } from "./../../Data";
 import { List } from "@mui/material";
+import { Link } from "react-router-dom";
+
 import DeleteIcon from "@mui/icons-material/Delete";
 import "./Users.css";
 // import { useEffect } from "react";
@@ -65,9 +67,9 @@ export default function Users() {
                 <TableCell align="left">{row.status}</TableCell>
                 <TableCell align="left">
                   <div className="Action">
-                    <List  to="./">
+                    <Link to={"/User/" + row.ID}>
                       <button>Edite</button>
-                    </List>
+                    </Link>
                     <DeleteIcon
                       className="removeIcon"
                       onClick={() => removeHandler(row.ID)}

@@ -9,7 +9,7 @@ import {
   YAxis,
   Tooltip,
 } from "recharts";
-export default function chart({ grid, title, data, dataKey }) {
+export default function chart({ grid, title, data }) {
   return (
     <div className="chart-container">
       <h3 className="chart-title">{title}</h3>
