@@ -1,9 +1,52 @@
 .Product {
-  display: flex;
+  /* display: flex; */
   flex: 4;
   padding: 2rem;
   /* align-items: center; */
+  /* width: 120vw; */
+}
+.ProductTitleProduct {
+  flex: 1;
+  display: flex;
   justify-content: space-between;
+}
+.ProductTop {
+  display: flex;
+}
+.ProductTopLeft {
+  flex: 2;
+  margin: 0.5rem;
+  /* width: 2rem; */
+}
+
+.ProductTopRight {
+  padding: 2rem;
+  margin: 0.5rem;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.355);
+  border-radius: 5px;
+  flex: 2;
+}
+.ProductTitle{
+  display: flex;
+  align-items: center;
+}
+.ProductTitle img{
+  width: 50px;
+
+}
+.ProductsDescribshoin .row{
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+.ProductsDescribshoin .left{
+font-weight: 600;
+
+}
+.ProductsDescribshoin .right{
+font-weight: 300;
+
 }
 .Product button {
   padding: 0.5rem 1rem;
@@ -25,5 +68,35 @@
   background-color: rgb(104, 6, 197);
   color: rgb(225, 194, 255);
   transform: scale(1.2);
+}
+.ProductBottum form{
+    padding: 2rem;
+  margin: 0.5rem;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.355);
+  border-radius: 5px;
+  display: flex;
   
 }
+.ProductBottumLeft{
+display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.ProductBottumRight{
+  display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+.ProductBottumRight .InputFile{
+  display: none;
+
+}
+.ProductBottumLeft input,select{
+ margin-bottom: 1rem;
+
+}
+.ProductBottumRight img{width: 100px;}

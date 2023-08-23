@@ -34,7 +34,7 @@ export default function Home() {
         />
       </div>
       <div className="chart">
-        <Chart grid title="Month Salese" data={chartdata} dataKey={"sale"} />
+        <Chart grid title="Month Salese" data={chartdata} dataKey={"month"} />
       </div>
       <div className="widgets">
         <SmWidget></SmWidget>
